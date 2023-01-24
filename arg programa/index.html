@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#"> Mathias </a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()"> INICIO </a></li>
+            <li><a href="#sobremi" onclick="seleccionar()"> SOBRE MI </a></li>
+            <li><a href="#skills" onclick="seleccionar()"> SKILLS </a></li>
+            <li><a href="#curriculum" onclick="seleccionar()"> CURRICULUM </a></li>
+            <li><a href="#contacto" onclick="seleccionar()"> CONTACTO </a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrasOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="/imagenes/foto_cv4.jpg" alt="" />
+        </div>
+        <h1>Mathias Lovey</h1>
+        <h2>Programador FullStack</h2>
+        <div class="redes">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mi</h2>
+        <p><span>Hola, soy Mathias Lovey.</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+        fugiat, eligendi minima tempore labore nobis, doloremque sapiente in
+        impedit quidem esse consectetur rem aut voluptatum maiores veniam. Quis,
+        reiciendis ipsa.</p>
+      
+      <div class="fila">
+        <!-- datos personales -->
+        <div class="col">
+          <h3>Datos Persoanles</h3>
+          <ul>
+            <li>
+              <strong>Cumpleaños</strong>
+              06/10/2001
+            </li>
+            <li>
+              <strong>Teléfono</strong>
+              3813402923
+            </li>
+            <li>
+              <strong>Email</strong>
+              loveymathias@gmail.com
+            </li>
+            <li>
+              <strong>Direccion</strong>
+              Pje. Alfredo Nobel 1860- San Miguel de Tucuman- Tucuman- Argentina
+            </li>
+          </ul>
+        </div>
+        <!-- intereses -->
+        <div class="col">
+            <h3>Intereses</h3>
+          <div class="contenedor-interes">
+            <div class="interes">
+              <i class="fa-solid fa-futbol"></i>
+              <span>Deporte</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-plane"></i>
+              <span>Viajar</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-music"></i>
+              <span>Musica</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-computer"></i>
+              <span>Tecnologia</span>
+            </div>
+          </div>
+        </div>
+    </div>
+        <button>
+          Descargar CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    
+    </section>
+    <!-- SECCION DE SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-skills">
+            <h2>Skills</h2>
+            <div class="filas">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3> Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> HTML & CSS </span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Phyton</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ruby</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Canva</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Lightroom</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe Premiere Pro</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professionals Skill-->
+                <div class="col">
+                    <h3> Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span> Trabajo en Equipo </span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Pensamiento Critico</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Organizacion</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-skills">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION DE CURRICULUM -->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Secundario</h4>
+                        <span class="casa">Gymnasium UNT</span>
+                        <span class="fecha"> 2012-2019 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso- Programación</h4>
+                        <span class="casa">RollingCode School</span>
+                        <span class="fecha"> 2022-2023 </span><br>
+                        <span class="casa">Argentina Programa 4.0</span>
+                        <span class="fecha"> 2022-2023 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnicatura Universitaria en Programacion</h4>
+                        <span class="casa">Universida Tecnologica Nacional- UTN</span>
+                        <span class="fecha"> 2023- Actualidad</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Mozo-Runner</h4>
+                        <span class="casa">Pizzeria Popular</span>
+                        <span class="fecha"> 2021-2021 </span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Encargado Salon y Barra</h4>
+                        <span class="casa">Peñon del Aguila</span>
+                        <span class="fecha"> 2021-2022 </span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Recepcionista</h4>
+                        <span class="casa">Hotel Le Park</span>
+                        <span class="fecha"> 2022- Actualidad</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
